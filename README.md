@@ -33,7 +33,9 @@ O programa está configurado para mover os seguintes arquivos:
 3.  **Início:** Descompacte e execute o `steamToolsSeguro.exe`. O ícone flutuante aparecerá no centro da tela.
 4.  **Uso:** Arraste e solte arquivos `.manifest` ou `.lua` no ícone. O programa confirmará a cópia com uma caixa de diálogo.
 
+## ⚠️ IMPORTANTE!!! 
+É necessário que a sua steam esteja instalada no diretório padrão que é (C:\Program Files (x86)\Steam)
+
 ## 📥 Último Lançamento
 
-[Baixe a versão mais recente aqui!](LINK_PARA_SEU_RELEASE) 
-**(Substitua esta linha pelo link direto para a página de Releases!)**
+[Baixe a versão mais recente aqui!](https://github.com/marciodinizdev/steamToolsSeguro/releases/tag/v1.0)
