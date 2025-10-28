@@ -1,0 +1,11 @@
+# Ignorar pastas de build do .NET
+[Bb]in/
+[Oo]bj/
+
+# Ignorar arquivos de publicação
+*/publish/
+
+# Arquivos de usuário do VS Code/Visual Studio
+.vscode/
+*.user
+*.suo
