@@ -20,7 +20,7 @@ No código, observe o arquivo `steamToolsSeguro.csproj`: A linha `<EmbeddedResou
 
 ## Funcionalidades
 
-A ferramenta deve funcionar para jogos "comprados" via Ryu (https://generator.ryuu.lol), que vêm em arquivos zipados `.manifest` e `.lua.` 
+A ferramenta deve funcionar para jogos "comprados" via Ryu (https://generator.ryuu.lol), que vêm em arquivos zipados `.manifest` e `.lua.`.
 
 Tudo que você precisa fazer é extrair esses arquivos, selecionar todos de uma vez e arrastar pra cima do "Steam Tools Seguro".
 
@@ -51,18 +51,18 @@ O programa está configurado para instalar os seguintes arquivos:
 3. Baixe o **[steamToolsSeguro-v1.0.rar](https://github.com/marciodinizdev/steamToolsSeguro/releases/tag/v1.0)**.
 4. Descompacte os arquivos e execute como administrador o `SteamToolsSeguro.exe`.
 
-Se a `hid.dll` chinesa foi devidamente removida, o programa instalará a versão limpa da mesma
+Se a `hid.dll` chinesa foi devidamente removida, o programa instalará a versão limpa da mesma.
 
 ## Adicionando jogos
 
 1. Acesse o **[Ryu](https://generator.ryuu.lol)**. Será necessário autenticar-se com Discord para poder usar.
 2. Procure e "compre" o jogo desejado. O ícone flutuante aparecerá no centro da tela.
-3. Extraia os arquivos do jogo e arraste-os para o ícone flutuante do Steam Tools Seguro. O programa confirmará a cópia com uma caixa de diálogo.
-4. Clique com o botão direito e clique em **Reiniciar Steam**.
+3. Extraia os arquivos do jogo e arraste-os todos de uma vez para o ícone flutuante do Steam Tools Seguro. O programa confirmará a cópia com uma caixa de diálogo.
+4. Clique com o botão direito sobre o ícone flutuante e clique em **Reiniciar Steam**.
 
 **Pronto!** Seu jogo estará disponível em sua biblioteca Steam para instalação.
 
-Você já pode fechar o Steam Tools Seguro, pois não é necessário que ele esteja em execução para o jogo funcionar e nada precisa ficar instalado em seu PC!
+Você já pode fechar o Steam Tools Seguro, pois não é necessário que ele esteja em execução para o jogo funcionar e nada precisa ficar instalado em seu PC além da própria Steam e dos seus jogos!
 
 ## 📥 Último Lançamento
 
