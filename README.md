@@ -37,7 +37,7 @@ O programa está configurado para instalar os seguintes arquivos:
 - É necessário que a sua steam esteja instalada no diretório padrão que é (C:\Program Files (x86)\Steam).
 - É preciso executar o Steam Tools chinês pelo menos uma vez para que o diretório steam passe a aceitar os jogos. Depois você poderá removê-lo e nada mais precisa ficar instalado em sua máquina.
 
-## Passo a passo
+## Passo a passo detalhado
 
 1. Baixe o **[Steam Tools chinês](https://steamtools.net/download.html)** clicando no primeiro link de download e instale normalmente.
 2. Execute uma vez, e imediatamente encerre o programa, desinstale-o e remova a `hid.dll` da pasta `C:\Program Files (x86)\Steam`.
