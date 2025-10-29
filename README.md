@@ -39,10 +39,10 @@ O programa está configurado para instalar os seguintes arquivos:
 
 ## Passo a passo
 
-1. Baixe o [Steam Tools chinês](https://steamtools.net/download.html) clicando no primeiro link de download e instale normalmente.
+1. Baixe o **[Steam Tools chinês](https://steamtools.net/download.html)** clicando no primeiro link de download e instale normalmente.
 2. Execute uma vez, e imediatamente encerre o programa, desinstale-o e remova a `hid.dll` da pasta `C:\Program Files (x86)\Steam`.
-3. Baixe o [Steam Tools Seguro](https://github.com/marciodinizdev/steamToolsSeguro/releases/tag/v1.0), extraia os arquivos e execute como administrador o `SteamToolsSeguro.exe`.
-4. Acesse o [Ryu](https://generator.ryuu.lol), procure e "compre" o jogo desejado.
+3. Baixe o **[Steam Tools Seguro](https://github.com/marciodinizdev/steamToolsSeguro/releases/tag/v1.0)**, extraia os arquivos e execute como administrador o `SteamToolsSeguro.exe`.
+4. Acesse o **[Ryu](https://generator.ryuu.lol)**, procure e "compre" o jogo desejado.
 5. Extraia os arquivos do jogo e arraste-os para o ícone flutuante do Steam Tools Seguro.
 6. Clique com o botão direito e clique em **Reiniciar Steam**
 
