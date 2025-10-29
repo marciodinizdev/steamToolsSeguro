@@ -44,17 +44,24 @@ O programa está configurado para instalar os seguintes arquivos:
 - É necessário que a sua steam esteja instalada no diretório padrão que é (C:\Program Files (x86)\Steam).
 - É preciso executar o Steam Tools chinês pelo menos uma vez para que o diretório steam passe a aceitar os jogos. Depois você poderá removê-lo e nada mais precisa ficar instalado em sua máquina.
 
-## Passo a passo detalhado
+## Instalando a ferramenta
 
 1. Baixe o **[Steam Tools chinês](https://steamtools.net/download.html)** clicando no primeiro link de download e instale normalmente.
 2. Execute uma vez, e imediatamente encerre o programa, desinstale-o e remova a `hid.dll` da pasta `C:\Program Files (x86)\Steam`.
-3. Baixe o **[Steam Tools Seguro](https://github.com/marciodinizdev/steamToolsSeguro/releases/tag/v1.0)**
-4. Descompacte os arquivos e execute como administrador o `SteamToolsSeguro.exe`. (se a `hid.dll` chinesa foi devidamente removida, o programa instalará a versão limpa da mesma)
-5. Acesse o **[Ryu](https://generator.ryuu.lol)**, procure e "compre" o jogo desejado. O ícone flutuante aparecerá no centro da tela.
-6. Extraia os arquivos do jogo e arraste-os para o ícone flutuante do Steam Tools Seguro. O programa confirmará a cópia com uma caixa de diálogo.
-7. Clique com o botão direito e clique em **Reiniciar Steam**
+3. Baixe o **[steamToolsSeguro-v1.0.rar](https://github.com/marciodinizdev/steamToolsSeguro/releases/tag/v1.0)**.
+4. Descompacte os arquivos e execute como administrador o `SteamToolsSeguro.exe`.
 
-**Pronto!** Seu jogo estará disponível em sua biblioteca Steam para instalação. 
+Se a `hid.dll` chinesa foi devidamente removida, o programa instalará a versão limpa da mesma
+
+## Adicionando jogos
+
+1. Acesse o **[Ryu](https://generator.ryuu.lol)**. Será necessário autenticar-se com Discord para poder usar.
+2. Procure e "compre" o jogo desejado. O ícone flutuante aparecerá no centro da tela.
+3. Extraia os arquivos do jogo e arraste-os para o ícone flutuante do Steam Tools Seguro. O programa confirmará a cópia com uma caixa de diálogo.
+4. Clique com o botão direito e clique em **Reiniciar Steam**.
+
+**Pronto!** Seu jogo estará disponível em sua biblioteca Steam para instalação.
+
 Você já pode fechar o Steam Tools Seguro, pois não é necessário que ele esteja em execução para o jogo funcionar e nada precisa ficar instalado em seu PC!
 
 ## 📥 Último Lançamento
