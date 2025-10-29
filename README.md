@@ -66,4 +66,4 @@ Você já pode fechar o Steam Tools Seguro, pois não é necessário que ele est
 
 ## 📥 Último Lançamento
 
-[Baixe a versão mais recente aqui!](https://github.com/marciodinizdev/steamToolsSeguro/releases/tag/v1.0)
+**[Baixe a versão mais recente aqui!](https://github.com/marciodinizdev/steamToolsSeguro/releases/tag/v1.0)**
