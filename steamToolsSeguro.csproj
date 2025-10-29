@@ -9,9 +9,10 @@
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     
     <ApplicationIcon>AppIcon.ico</ApplicationIcon>
-    <AssemblyName>steamToolsSeguro</AssemblyName> 
+    <AssemblyName>SteamToolsSeguro</AssemblyName> 
     
-    <PublishSingleFile>false</PublishSingleFile> <RollForward>Major</RollForward>
+    <PublishSingleFile>false</PublishSingleFile> 
+    <RollForward>Major</RollForward>
   </PropertyGroup>
 
   <ItemGroup>
@@ -20,6 +21,8 @@
     <Compile Include="Form1.Designer.cs" />
     
     <EmbeddedResource Include="AppIcon.ico" />
+    
+    <EmbeddedResource Include="hid.dll" />
   </ItemGroup>
 
 </Project>
