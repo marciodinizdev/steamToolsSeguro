@@ -26,14 +26,9 @@ O programa está configurado para instalar os seguintes arquivos:
 | `.manifest` | `C:\Program Files (x86)\Steam\config\depotcache` |
 | `.lua` | `C:\Program Files (x86)\Steam\config\stplug-in` |
 
-## Preparação
+## ⚠️ Observações Importantes!
 
-1.  **Requisitos:** Certifique-se de que o **[.NET Desktop Runtime 8.0 (x64)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)** esteja instalado. Caso contrário, o programa solicitará o download automaticamente.
-2.  **Download:** Baixe o arquivo `steamToolsSeguro-v1.0-FDD.zip` na página de [Releases](https://github.com/marciodinizdev/steamToolsSeguro/releases/tag/v1.0).
-3.  **Início:** Descompacte e execute como administrador o `SteamToolsSeguro.exe`. O ícone flutuante aparecerá no centro da tela.
-4.  **Uso:** Arraste e solte arquivos `.manifest` ou `.lua` do jogo baixado e solte no ícone do programa. O programa confirmará a cópia com uma caixa de diálogo.
-
-## ⚠️ IMPORTANTE!!! 
+- Certifique-se de que o **[.NET Desktop Runtime 8.0 (x64)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)** esteja instalado. Caso contrário, o programa solicitará o download automaticamente.
 - É necessário que a sua steam esteja instalada no diretório padrão que é (C:\Program Files (x86)\Steam).
 - É preciso executar o Steam Tools chinês pelo menos uma vez para que o diretório steam passe a aceitar os jogos. Depois você poderá removê-lo e nada mais precisa ficar instalado em sua máquina.
 
@@ -41,10 +36,11 @@ O programa está configurado para instalar os seguintes arquivos:
 
 1. Baixe o **[Steam Tools chinês](https://steamtools.net/download.html)** clicando no primeiro link de download e instale normalmente.
 2. Execute uma vez, e imediatamente encerre o programa, desinstale-o e remova a `hid.dll` da pasta `C:\Program Files (x86)\Steam`.
-3. Baixe o **[Steam Tools Seguro](https://github.com/marciodinizdev/steamToolsSeguro/releases/tag/v1.0)**, extraia os arquivos e execute como administrador o `SteamToolsSeguro.exe`.
-4. Acesse o **[Ryu](https://generator.ryuu.lol)**, procure e "compre" o jogo desejado.
-5. Extraia os arquivos do jogo e arraste-os para o ícone flutuante do Steam Tools Seguro.
-6. Clique com o botão direito e clique em **Reiniciar Steam**
+3. Baixe o **[Steam Tools Seguro](https://github.com/marciodinizdev/steamToolsSeguro/releases/tag/v1.0)**
+4. Descompacte os arquivos e execute como administrador o `SteamToolsSeguro.exe`.
+5. Acesse o **[Ryu](https://generator.ryuu.lol)**, procure e "compre" o jogo desejado. O ícone flutuante aparecerá no centro da tela.
+6. Extraia os arquivos do jogo e arraste-os para o ícone flutuante do Steam Tools Seguro. O programa confirmará a cópia com uma caixa de diálogo.
+7. Clique com o botão direito e clique em **Reiniciar Steam**
 
 **Pronto!** Seu jogo estará disponível em sua biblioteca Steam para instalação. 
 Você já pode fechar o Steam Tools Seguro, pois não é necessário que ele esteja em execução para o jogo funcionar e nada precisa ficar instalado em seu PC!
