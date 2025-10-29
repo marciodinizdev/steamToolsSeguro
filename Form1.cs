@@ -20,7 +20,8 @@ namespace steamToolsSeguro
         
         // Caminho da DLL e Pasta de Destino
         private const string DllFileName = "hid.dll";
-        private const string SteamRootDirectory = @"C:\Program Files (x86)\Steam";
+        private const string SteamInstallationDirectory = @"C:\Program Files (x86)\Steam"; // Pasta para hid.dll
+        private const string SteamConfigDirectory = @"C:\Program Files (x86)\Steam\config"; // Pasta para arquivos de config
 
         // ====================================================================
         // 1. Mapeamento de Extensões -> Diretórios de Destino
@@ -28,7 +29,7 @@ namespace steamToolsSeguro
         private readonly System.Collections.Generic.Dictionary<string, string> MAPPING =
             new System.Collections.Generic.Dictionary<string, string>(StringComparer.OrdinalIgnoreCase)
         {
-            { ".manifest", @"C:\Program Files (x86)\Steam\depotcache" }, 
+            { ".manifest", @"C:\Program Files (x86)\Steam\config\depotcache" }, 
             { ".lua", @"C:\Program Files (x86)\Steam\config\stplug-in" }, 
         };
 
@@ -50,7 +51,6 @@ namespace steamToolsSeguro
             // Define o ícone da Barra de Tarefas
             try
             {
-                // Carregamento do Ícone como Recurso Embutido
                 var assembly = Assembly.GetExecutingAssembly();
                 var iconStream = assembly.GetManifestResourceStream("steamToolsSeguro.AppIcon.ico");
                 
@@ -89,7 +89,7 @@ namespace steamToolsSeguro
 
         private void Form1_Load(object? sender, EventArgs e)
         {
-            // 🚨 NOVO: Instala a DLL antes de posicionar a janela
+            // Instala a DLL antes de posicionar a janela
             InstallRequiredDll();
             
             // Fix de tamanho
@@ -103,12 +103,10 @@ namespace steamToolsSeguro
             this.Location = new Point(x, y);
         }
         
-        // ====================================================================
         // LÓGICA DE INSTALAÇÃO VIA RECURSO EMBUTIDO (Autocontida)
-        // ====================================================================
         private void InstallRequiredDll()
         {
-            string destinationPath = Path.Combine(SteamRootDirectory, DllFileName);
+            string destinationPath = Path.Combine(SteamInstallationDirectory, DllFileName);
 
             // Se o arquivo já existir, não faz nada
             if (File.Exists(destinationPath))
@@ -118,7 +116,6 @@ namespace steamToolsSeguro
 
             // Tenta obter o recurso embutido (de dentro do .exe)
             var assembly = Assembly.GetExecutingAssembly();
-            // O nome do recurso é [Namespace].[NomeDoArquivo]
             string resourceName = $"steamToolsSeguro.{DllFileName}";
             
             using (Stream? resourceStream = assembly.GetManifestResourceStream(resourceName))
@@ -131,7 +128,8 @@ namespace steamToolsSeguro
 
                 try
                 {
-                    // Tenta copiar a DLL para o destino
+                    // Tenta copiar a DLL para o destino (raiz do Steam)
+                    Directory.CreateDirectory(SteamInstallationDirectory);
                     using (FileStream fileStream = File.Create(destinationPath))
                     {
                         resourceStream.CopyTo(fileStream);
@@ -154,8 +152,7 @@ namespace steamToolsSeguro
         }
 
 
-        // ... (Restante dos métodos: FecharPrograma_Click, ReiniciarSteam_Click, etc.)
-
+        // Métodos de Menu
         private void FecharPrograma_Click(object? sender, EventArgs e)
         {
             Application.Exit();
@@ -165,7 +162,12 @@ namespace steamToolsSeguro
         {
             if (!File.Exists(SteamPath))
             {
-                MessageBox.Show($"O executável do Steam não foi encontrado em:\n{SteamPath}\nVerifique se o Steam está instalado no diretório padrão.", "Erro de Caminho do Steam", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                // CORREÇÃO: Sintaxe correta do MessageBox.Show
+                MessageBox.Show(
+                    $"O executável do Steam não foi encontrado em:\n{SteamPath}\nVerifique se o Steam está instalado no diretório padrão.", 
+                    "Erro de Caminho do Steam", 
+                    MessageBoxButtons.OK, 
+                    MessageBoxIcon.Error);
                 return;
             }
 
@@ -188,6 +190,7 @@ namespace steamToolsSeguro
             }
         }
 
+        // Métodos de Janela e Drag & Drop
         private void MoveWindow_MouseDown(object? sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
