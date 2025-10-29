@@ -12,7 +12,7 @@ Porém isso pode se tornar trabalhoso demais. E aí que entra o "Steam Tools Seg
 
 ## Funcionalidades
 
-A ferramenta deve funcionar para jogos "comprados" via Ryu (https://generator.ryuu.lol), que vêm em arquivos zipados .manifest e .lua. Tudo que você precisa fazer é extrair esses arquivos, selecionar todos de uma vez e arrastar pra cima do "Steam Tools Seguro".
+A ferramenta deve funcionar para jogos "comprados" via Ryu (https://generator.ryuu.lol), que vêm em arquivos zipados `.manifest` e `.lua.` Tudo que você precisa fazer é extrair esses arquivos, selecionar todos de uma vez e arrastar pra cima do "Steam Tools Seguro".
 
 - **Portátil e leve:** Menos de 1 MB e não há necessidade de instalar o programa em sua máquina.
 - **Ícone Flutuante:** Janela minimalista que pode ser arrastada livremente pela tela.
