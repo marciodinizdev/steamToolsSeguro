@@ -16,7 +16,7 @@ Um ponto crucial sobre o Steam Tools chinês é a temida `hid.dll`, que gerou um
 
 O Steam Tools Seguro também facilita esse trabalha para você, trazendo a `hid.dll` limpa pelo ciskao já embuída no instalador `SteamToolsSeguro.exe`, e o programam irá automaticamente instalar no diretório Steam a dll na primeira vez que você executar o programa e ele identificar a ausência da mesma.
 
-No código, observe o arquivo `steamToolsSeguro.csproj`: A linha <EmbeddedResource Include="hid.dll" /> diz ao compilador para embutir a hid.dll no executável. Ela está presente aqui nos arquivos do projeto e você poderá conferir ou pedir para algum dev fazê-lo e confirmar que é a mesma dll limpa do ciskao. 
+No código, observe o arquivo `steamToolsSeguro.csproj`: A linha `<EmbeddedResource Include="hid.dll" />` diz ao compilador para embutir a hid.dll no executável. Ela está presente aqui nos arquivos do projeto e você poderá conferir ou pedir para algum dev fazê-lo e confirmar que é a mesma dll limpa do ciskao. 
 
 ## Funcionalidades
 
