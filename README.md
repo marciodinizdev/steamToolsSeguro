@@ -12,7 +12,7 @@ Porém isso pode se tornar trabalhoso demais. E aí que entra o "Steam Tools Seg
 
 ## hid.dll
 
-Um ponto crucial sobre o Steam Tools chinês é a temida `hid.dll`, que gerou uma certa polêmica por conter funções duvidosas, porém a mesma foi limpa pelo mano ciskao e divulgada e disponibilizada pelo mano bumyy+ em seu canal no YouTube. Toda e qualquer função de acesso a rede foi removida, tornando sua manutenção em seu PC mais segura.
+Um ponto crucial sobre o Steam Tools chinês é a temida `hid.dll`, que gerou uma certa polêmica por conter funções duvidosas, porém a mesma foi limpa pelo mano ciskao e divulgada e disponibilizada pelo mano bumyy+ em seu canal no YouTube. Toda e qualquer função de acesso a rede foi removida, tornando-a mais segura.
 
 O Steam Tools Seguro também facilita esse trabalha para você, trazendo a `hid.dll` limpa pelo ciskao já embuída no instalador `SteamToolsSeguro.exe`, e o programam irá automaticamente instalar no diretório Steam a dll na primeira vez que você executar o programa e ele identificar a ausência da mesma.
 
