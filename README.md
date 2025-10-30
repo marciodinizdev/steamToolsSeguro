@@ -14,7 +14,7 @@ Porém isso pode se tornar trabalhoso demais. E aí que entra o **Steam Tools Se
 
 Um ponto crucial sobre o **Steam Tools chinês** é a temida `hid.dll`, que gerou uma certa polêmica por conter funções duvidosas, porém a mesma foi limpa pelo mano **[Ciskao](https://www.youtube.com/@ciskao)**, como ele bem mostra em seu canal no YouTube, e divulgada e disponibilizada pelo mano **[Bumyy+](https://www.youtube.com/@maisbumyy)** também em seu canal. Com isso qualquer função duvidosa de acesso à sua rede foi removida, tornando a dll mais segura. Assim você poderá baixar a dll limpa e remover a dll chinesa.
 
-O Steam Tools Seguro também facilita esse trabalho para você, trazendo a `hid.dll` limpa pelo ciskao já embuída no instalador `SteamToolsSeguro.exe`, e o programa irá automaticamente instalar no diretório Steam a dll na primeira vez que você executar o programa e ele identificar a ausência da mesma.
+O **Steam Tools Seguro** também facilita esse trabalho para você, trazendo a `hid.dll` limpa pelo ciskao já embuída no instalador `SteamToolsSeguro.exe`, e o programa irá automaticamente instalar no diretório Steam a dll na primeira vez que você executar o programa e ele identificar a ausência da mesma.
 
 No código, observe o arquivo `steamToolsSeguro.csproj`: A linha `<EmbeddedResource Include="hid.dll" />` diz ao compilador para embutir a `hid.dll` no executável. Ela está presente aqui nos arquivos do projeto e você poderá conferir ou pedir para algum dev fazê-lo e confirmar que é a mesma dll limpa do ciskao. 
 
@@ -22,7 +22,7 @@ No código, observe o arquivo `steamToolsSeguro.csproj`: A linha `<EmbeddedResou
 
 A ferramenta deve funcionar para jogos "comprados" via **Ryu (https://generator.ryuu.lol)**, que vêm em arquivos zipados `.manifest` e `.lua.`.
 
-Tudo que você precisa fazer é extrair esses arquivos, selecionar todos de uma vez e arrastar pra cima do "Steam Tools Seguro".
+Tudo que você precisa fazer é extrair esses arquivos, selecionar todos de uma vez e arrastar pra cima do ícone flutuante do **Steam Tools Seguro**.
 
 - **Portátil e leve:** Menos de 1 MB e não há necessidade de instalar o programa em sua máquina.
 - **Ícone Flutuante:** Janela minimalista que pode ser arrastada livremente pela tela.
@@ -62,7 +62,7 @@ Se a `hid.dll` chinesa foi devidamente removida, o programa instalará a versão
 
 **Pronto!** Seu jogo estará disponível em sua biblioteca Steam para instalação.
 
-Você já pode fechar o **Steam Tools Seguro**, pois não é necessário que ele esteja em execução para o jogo funcionar e nada precisa ficar instalado em seu PC além da própria Steam e dos seus jogos!
+Você já pode fechar o **Steam Tools Seguro**, pois não é necessário que ele esteja em execução para o jogo funcionar e nada precisa ficar instalado em seu PC além da própria **Steam** e dos seus jogos!
 
 ## 📥 Último Lançamento
 
