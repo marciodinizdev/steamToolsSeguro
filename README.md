@@ -49,14 +49,14 @@ O programa está configurado para instalar os seguintes arquivos:
 1. Baixe o **[Steam Tools chinês](https://steamtools.net/download.html)** clicando no primeiro link de download e instale normalmente.
 2. Execute uma vez, e imediatamente encerre o programa, desinstale-o e remova a `hid.dll` da pasta `C:\Program Files (x86)\Steam`.
 3. Baixe o **[steamToolsSeguro-v1.0.rar](https://github.com/marciodinizdev/steamToolsSeguro/releases/tag/v1.0)**.
-4. Descompacte os arquivos e execute como administrador o `SteamToolsSeguro.exe`.
+4. Descompacte os arquivos e execute como administrador o `SteamToolsSeguro.exe`. O ícone flutuante aparecerá no centro da tela.
 
 Se a `hid.dll` chinesa foi devidamente removida, o programa instalará a versão limpa da mesma.
 
 ## Adicionando jogos
 
 1. Acesse o **[Ryu](https://generator.ryuu.lol)**. Será necessário autenticar-se com o seu **Discord** para poder usar.
-2. Procure e "compre" o jogo desejado. O ícone flutuante aparecerá no centro da tela.
+2. Procure o jogo desejado e faça o download.
 3. Extraia os arquivos do jogo e arraste-os todos de uma vez para o ícone flutuante do **Steam Tools Seguro**. O programa confirmará a cópia com uma caixa de diálogo.
 4. Clique com o botão direito sobre o ícone flutuante e clique em **Reiniciar Steam**.
 
