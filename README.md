@@ -4,7 +4,7 @@ Uma ferramenta flutuante e minimalista para Windows, desenvolvida em C# (.NET 8)
 
 A motivação para o desenvolvimento veio da falta de segurança que o **Steam Tools** transmite e esta ferramenta elimina a necessidade de manter o programa chinês duvidoso instalado.
 
-A forma mais segura de "comprar" seus jogos é não manter nenhuma dessas ferramentas instaladas em sua máquina, baixar diretamente os jogos pelo Ryu e adicionar manualmente os arquivos nas suas respectivas pastas no diretório da Steam sem precisar arrastá-los para o Tools chinês.
+A forma mais segura de "comprar" seus jogos é não manter nenhuma dessas ferramentas instaladas em sua máquina, baixar diretamente os jogos pelo **Ryu** e adicionar manualmente os arquivos nas suas respectivas pastas no diretório da **Steam** sem precisar arrastá-los para o **Tools chinês**.
 
 Porém isso pode se tornar trabalhoso demais. E aí que entra o **Steam Tools Seguro**: ele automatiza esse processo de forma prática e sem comprometer seus dados e a sua segurança.
 
@@ -12,7 +12,7 @@ Porém isso pode se tornar trabalhoso demais. E aí que entra o **Steam Tools Se
 
 ## hid.dll
 
-Um ponto crucial sobre o Steam Tools chinês é a temida `hid.dll`, que gerou uma certa polêmica por conter funções duvidosas, porém a mesma foi limpa pelo mano **[Ciskao](https://www.youtube.com/@ciskao)**, como ele bem mostra em seu canal no YouTube, e divulgada e disponibilizada pelo mano **[Bumyy+](https://www.youtube.com/@maisbumyy)** também em seu canal. Com isso qualquer função duvidosa de acesso à sua rede foi removida, tornando a dll mais segura. Assim você poderá baixar a dll limpa e remover a dll chinesa.
+Um ponto crucial sobre o **Steam Tools chinês** é a temida `hid.dll`, que gerou uma certa polêmica por conter funções duvidosas, porém a mesma foi limpa pelo mano **[Ciskao](https://www.youtube.com/@ciskao)**, como ele bem mostra em seu canal no YouTube, e divulgada e disponibilizada pelo mano **[Bumyy+](https://www.youtube.com/@maisbumyy)** também em seu canal. Com isso qualquer função duvidosa de acesso à sua rede foi removida, tornando a dll mais segura. Assim você poderá baixar a dll limpa e remover a dll chinesa.
 
 O Steam Tools Seguro também facilita esse trabalho para você, trazendo a `hid.dll` limpa pelo ciskao já embuída no instalador `SteamToolsSeguro.exe`, e o programa irá automaticamente instalar no diretório Steam a dll na primeira vez que você executar o programa e ele identificar a ausência da mesma.
 
@@ -55,7 +55,7 @@ Se a `hid.dll` chinesa foi devidamente removida, o programa instalará a versão
 
 ## Adicionando jogos
 
-1. Acesse o **[Ryu](https://generator.ryuu.lol)**. Será necessário autenticar-se com Discord para poder usar.
+1. Acesse o **[Ryu](https://generator.ryuu.lol)**. Será necessário autenticar-se com o seu **Discord** para poder usar.
 2. Procure e "compre" o jogo desejado. O ícone flutuante aparecerá no centro da tela.
 3. Extraia os arquivos do jogo e arraste-os todos de uma vez para o ícone flutuante do **Steam Tools Seguro**. O programa confirmará a cópia com uma caixa de diálogo.
 4. Clique com o botão direito sobre o ícone flutuante e clique em **Reiniciar Steam**.
