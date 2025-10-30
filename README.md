@@ -2,9 +2,9 @@
 
 Uma ferramenta flutuante e minimalista para Windows, desenvolvida em C# (.NET 8), que automatiza a cópia de arquivos essenciais para diretórios pré-definidos da Steam usando a funcionalidade de Arrastar e Soltar (Drag & Drop).
 
-A motivação para o desenvolvimento veio da falta de segurança que o Steam Tools transmite e esta ferramenta elimina a necessidade de ter o programa chinês duvidoso instalado.
+A motivação para o desenvolvimento veio da falta de segurança que o Steam Tools transmite e esta ferramenta elimina a necessidade de manter o programa chinês duvidoso instalado.
 
-A forma mais segura de "comprar" seus jogos é não ter nenhuma dessas ferramentas instaladas em sua máquina, baixar diretamente os jogos pelo Ryu e adicionar manualmente os arquivos nas suas respectivas pastas no diretório da Steam sem precisar arrastá-los para o Tools chinês.
+A forma mais segura de "comprar" seus jogos é não manter nenhuma dessas ferramentas instaladas em sua máquina, baixar diretamente os jogos pelo Ryu e adicionar manualmente os arquivos nas suas respectivas pastas no diretório da Steam sem precisar arrastá-los para o Tools chinês.
 
 Porém isso pode se tornar trabalhoso demais. E aí que entra o "Steam Tools Seguro": ele automatiza esse processo de forma prática e sem comprometer seus dados e a sua segurança.
 
